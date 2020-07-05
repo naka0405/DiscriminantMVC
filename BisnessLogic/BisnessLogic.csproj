@@ -55,7 +55,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EquationManager.cs" />
+    <Compile Include="GetDscrmnntRoots.cs" />
+    <Compile Include="GetRoots.cs" />
     <Compile Include="Models\EquationBL.cs" />
+    <Compile Include="Models\InputDataBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

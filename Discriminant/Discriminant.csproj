@@ -130,12 +130,13 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\DController.cs" />
+    <Compile Include="Controllers\EquationController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\EquationViewModel.cs" />
+    <Compile Include="Models\InputData.cs" />
+    <Compile Include="Models\EquationPostModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -178,10 +179,8 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\D\Index.cshtml" />
-    <Content Include="Views\D\CalculateDscrmnnt.cshtml" />
-    <Content Include="Views\D\GetDscrmnntRoots.cshtml" />
-    <Content Include="Views\D\GetRoots.cshtml" />
+    <Content Include="Views\Equation\Index.cshtml" />
+    <Content Include="Views\Equation\GetDscrmnntRoots.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BisnessLogic\BisnessLogic.csproj">
