@@ -1,0 +1,38 @@
+﻿@model Discriminant.Models.EquationViewModel
+@{
+    
+    ViewBag.Title = "Index";
+}
+
+<h2>Equation A*X<sup>2</sup>+B*X+C</h2>
+
+<form method="post">
+    <div>
+        <label>Input A</label>
+        <input type="text" name="A" />
+    </div>
+    <div>
+        <label>Input B</label>
+        <input type="text" name="B" />
+    </div>
+    <div>
+        <label>Input C</label>
+        <input type="text" name="C" />
+    </div>
+    @*<div>
+        <label>Discriminant</label>
+        <input type="text" name="Dscrmnnt" />
+    </div>
+    <div>
+        <label>X1</label>
+        <input type="text" name="X1" />
+    </div>
+    <div>
+        <label>X2</label>
+        <input type="text" name="X2" />
+    </div>*@
+    
+    <button type="submit" value="Save">Calculate</button>
+
+</form>
+
